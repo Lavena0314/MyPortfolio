@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lavena | Business Portfolio</title>
+  <meta name="description" content="Modern business portfolio website showcasing skills, education, projects, and contact details.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">Lavena</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#projects">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#skills">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">Business Portfolio</p>
+        <h1>Helping brands grow with clear ideas and polished execution.</h1>
+        <p class="hero-text">
+          I build thoughtful digital experiences that combine strategy, design, and reliable delivery to support business goals.
+        </p>
+        <a class="cta" href="#contact">Let’s Work Together</a>
+      </div>
+      <div class="hero-visual" role="img" aria-label="Profile placeholder">
+        <div class="avatar-placeholder">
+          <span>Profile Image</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlights container" aria-label="Highlights">
+      <article class="card">
+        <h3>Client Focused</h3>
+        <p>Business-first solutions tailored for measurable outcomes and long-term value.</p>
+      </article>
+      <article class="card">
+        <h3>Professional Delivery</h3>
+        <p>Clear communication, structured timelines, and dependable execution at every stage.</p>
+      </article>
+      <article class="card">
+        <h3>Growth Mindset</h3>
+        <p>Continuous improvement through feedback, analytics, and modern best practices.</p>
+      </article>
+    </section>
+
+    <section id="about" class="section container">
+      <h2>About</h2>
+      <p>
+        I am a business-oriented professional with a strong interest in modern digital solutions. My work is centered on creating clean, practical, and user-friendly experiences that support brand trust and growth.
+      </p>
+    </section>
+
+    <section id="education" class="section container">
+      <h2>Educational Background</h2>
+      <div class="timeline-item">
+        <h3>Bachelor of Science in Information Technology</h3>
+        <p>University Name — 2020 to 2024</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Professional Development Courses</h3>
+        <p>Business Communication, UI/UX Fundamentals, and Project Management</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <h2>Skills & Services</h2>
+      <div class="chip-list">
+        <span>Web Design</span>
+        <span>Front-End Development</span>
+        <span>Business Presentation</span>
+        <span>Content Writing</span>
+        <span>Project Coordination</span>
+        <span>Client Communication</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2>Sample Works</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Corporate Landing Page</h3>
+          <p>A conversion-focused page layout with modern branding and clear user flow.</p>
+        </article>
+        <article class="project-card">
+          <h3>Business Profile Deck</h3>
+          <p>Professional presentation content tailored for client meetings and proposals.</p>
+        </article>
+        <article class="project-card">
+          <h3>Service Showcase Website</h3>
+          <p>Multi-section portfolio page built for credibility, lead capture, and easy updates.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <p><strong>Email:</strong> yourname@email.com</p>
+        <p><strong>Phone:</strong> +63 900 000 0000</p>
+        <p><strong>LinkedIn:</strong> linkedin.com/in/yourprofile</p>
+        <p><strong>Location:</strong> Manila, Philippines</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Lavena. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
