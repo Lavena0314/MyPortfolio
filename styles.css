@@ -179,6 +179,10 @@ h2 {
   gap: 0.5rem;
 }
 
+.contact-grid a {
+  color: var(--accent);
+}
+
 .contact-form input,
 .contact-form textarea {
   border: 1px solid var(--border);
@@ -225,7 +229,7 @@ h2 {
 
   .main-nav {
     position: absolute;
-    right: 4%;
+    right: calc((100% - min(1100px, 92%)) / 2);
     top: 68px;
     flex-direction: column;
     background: var(--surface);
