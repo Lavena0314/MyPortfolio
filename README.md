@@ -13,7 +13,7 @@ Modern, responsive, business-focused personal portfolio built with HTML, CSS, an
 
 1. Open `index.html` directly in a browser.
 2. Optional local server (recommended):
-   - `cd MyPortfolio`
+   - `cd <repository-directory>`
    - `python -m http.server 8000`
    - Open `http://localhost:8000`
 
