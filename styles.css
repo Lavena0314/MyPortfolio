@@ -129,6 +129,7 @@ body {
   place-items: center;
 }
 
+/* RESIZED PROFILE IMAGE BOX */
 .profile-frame {
   width: 240px;
   height: 240px;
