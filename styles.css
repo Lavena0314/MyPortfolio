@@ -129,24 +129,16 @@ body {
   place-items: center;
 }
 
-/* RESIZED PROFILE IMAGE BOX */
 .profile-frame {
   width: 240px;
   height: 240px;
   border-radius: 30px;
   box-shadow: var(--shadow);
-  display: grid;
-  place-items: center;
   overflow: hidden;
-  background: transparent;
-}
-
-.profile-frame img,
-.profile-frame .profile-photo {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+  background-image: url('profile.PNG');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .profile-frame__label {
