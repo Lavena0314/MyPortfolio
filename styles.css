@@ -8,6 +8,9 @@
   --primary-strong: #7858cc;
   --border: #e4d9ff;
   --shadow: 0 10px 30px rgba(122, 92, 194, 0.12);
+  --profile-gradient-start: #d6c4ff;
+  --profile-gradient-mid: #b695ff;
+  --profile-gradient-end: #8e6ed6;
 }
 
 * {
@@ -129,7 +132,8 @@ body {
   width: min(380px, 100%);
   aspect-ratio: 1/1;
   border-radius: 30px;
-  background-image: var(--profile-image), radial-gradient(circle at top, #d6c4ff 10%, #b695ff 50%, #8e6ed6 100%);
+  --profile-image: url('profile-image.jpg');
+  background-image: var(--profile-image), radial-gradient(circle at top, var(--profile-gradient-start) 10%, var(--profile-gradient-mid) 50%, var(--profile-gradient-end) 100%);
   background-size: cover;
   background-position: center;
   box-shadow: var(--shadow);
