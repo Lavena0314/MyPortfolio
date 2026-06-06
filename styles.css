@@ -131,9 +131,9 @@ body {
 
 /* RESIZED PROFILE IMAGE BOX */
 .profile-frame {
-  width: 240px;
-  height: 240px;
-  border-radius: 30px;
+  width: 140px;
+  height: 140px;
+  border-radius: 20px;
   background-image:
     linear-gradient(
       180deg,
@@ -153,7 +153,7 @@ body {
 
 .profile-frame__label {
   background: rgba(255, 255, 255, 0.9);
-  border-radius: 555px;
+  border-radius: 999px;
   padding: 0.4rem 0.85rem;
   font-weight: 600;
   color: var(--primary-strong);
