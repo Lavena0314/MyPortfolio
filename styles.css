@@ -125,17 +125,21 @@ body {
   place-items: center;
 }
 
-.avatar-placeholder {
+.profile-frame {
   width: min(380px, 100%);
   aspect-ratio: 1/1;
   border-radius: 30px;
-  background: radial-gradient(circle at top, #d6c4ff 10%, #b695ff 50%, #8e6ed6 100%);
+  background-image: var(--profile-image), radial-gradient(circle at top, #d6c4ff 10%, #b695ff 50%, #8e6ed6 100%);
+  background-size: cover;
+  background-position: center;
   box-shadow: var(--shadow);
   display: grid;
-  place-items: center;
+  place-items: end center;
+  padding: 1rem;
+  overflow: hidden;
 }
 
-.avatar-placeholder span {
+.profile-frame__label {
   background: rgba(255, 255, 255, 0.9);
   border-radius: 999px;
   padding: 0.4rem 0.85rem;
