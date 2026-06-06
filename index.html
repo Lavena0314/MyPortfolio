@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Professional personal portfolio website for showcasing skills, education, and business value."
+    />
+    <title>[Your Name] | Business Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="logo" href="#home">[Your Name]</a>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <nav class="main-nav" id="main-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#work">Sample Works</a>
+          <a href="#value">Business Value</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid reveal">
+          <div>
+            <p class="eyebrow">Portfolio Website</p>
+            <h1>[Your Name]</h1>
+            <h2>Front-End Developer & Brand-Focused Creative Professional</h2>
+            <p class="tagline">
+              I design modern digital experiences that build trust, strengthen brand identity, and support measurable business growth.
+            </p>
+            <a class="btn" href="#contact">Let's Work Together</a>
+          </div>
+          <div class="hero-card">
+            <h3>Quick Highlights</h3>
+            <ul>
+              <li>5+ years building responsive web interfaces</li>
+              <li>Strong blend of design, strategy, and implementation</li>
+              <li>Focused on business outcomes and user trust</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="about">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>
+            I am a detail-oriented professional passionate about creating elegant, conversion-friendly websites and brand experiences.
+            My approach combines visual quality, usability, and business strategy to help organizations present themselves with clarity and confidence.
+          </p>
+        </div>
+      </section>
+
+      <section class="section alt reveal" id="education">
+        <div class="container">
+          <h2>Educational Background</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>B.Sc. in Information Technology</h3>
+              <p>City University · 2018</p>
+            </article>
+            <article class="card">
+              <h3>Certification in UX & Digital Branding</h3>
+              <p>Professional Design Institute · 2020</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="skills">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="chips">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive Design</span>
+            <span>UI/UX</span><span>Brand Strategy</span><span>SEO Basics</span><span>Client Communication</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt reveal" id="work">
+        <div class="container">
+          <h2>Sample Works</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Corporate Landing Page Redesign</h3>
+              <p>
+                Increased lead form completions by improving layout clarity, trust indicators, and mobile performance.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Product Storytelling Case Study</h3>
+              <p>
+                Crafted audience-focused product messaging and long-form copy to support launch campaigns.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Portfolio Brand Refresh</h3>
+              <p>
+                Developed a modern visual system and content structure to improve credibility for potential clients.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="value">
+        <div class="container">
+          <h2>Strengths & Business Value</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Trust-First Design</h3>
+              <p>I craft polished interfaces that make your business feel credible and professional at first glance.</p>
+            </article>
+            <article class="card">
+              <h3>Outcome-Driven Work</h3>
+              <p>I connect design and content decisions to goals like lead generation, retention, and stronger engagement.</p>
+            </article>
+            <article class="card">
+              <h3>Reliable Collaboration</h3>
+              <p>I communicate clearly, manage timelines responsibly, and deliver production-ready front-end solutions.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt reveal" id="contact">
+        <div class="container">
+          <h2>Contact</h2>
+          <div class="contact-grid">
+            <div>
+              <p>
+                <strong>Email:</strong>
+                <a href="mailto:jane.alex@example.com">jane.alex@example.com</a>
+              </p>
+              <p>
+                <strong>Phone:</strong>
+                <a href="tel:+15551234567">+1 (555) 123-4567</a>
+              </p>
+              <p>
+                <strong>LinkedIn:</strong>
+                <a href="https://linkedin.com/in/janealex" target="_blank" rel="noopener noreferrer">linkedin.com/in/janealex</a>
+              </p>
+              <p>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/janealex" target="_blank" rel="noopener noreferrer">github.com/janealex</a>
+              </p>
+            </div>
+            <form class="contact-form" id="contact-form" action="#" method="post">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required />
+
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="your@email.com" required />
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="How can I help?" required></textarea>
+
+              <button class="btn" type="submit">Send Message</button>
+              <small>This form is a placeholder. Connect it to your preferred form backend.</small>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> [Your Name]. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
