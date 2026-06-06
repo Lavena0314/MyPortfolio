@@ -130,9 +130,9 @@ body {
 }
 
 .profile-frame {
-  width: 350px;
-  height: 300px;
-  border-radius: 30px;
+  width: 800px;
+  height: 600px;
+  border-radius: 40px;
   box-shadow: var(--shadow);
   overflow: hidden;
   background: transparent;
