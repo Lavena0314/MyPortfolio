@@ -130,8 +130,8 @@ body {
 }
 
 .profile-frame {
-  width: 200px;
-  height: 200px;
+  width: 240px;
+  height: 240px;
   border-radius: 30px;
   box-shadow: var(--shadow);
   overflow: hidden;
