@@ -131,8 +131,8 @@ body {
 
 /* RESIZED PROFILE IMAGE BOX */
 .profile-frame {
-  width: 140px;
-  height: 140px;
+  width: 40px;
+  height: 40px;
   border-radius: 20px;
   background-image:
     linear-gradient(
