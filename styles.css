@@ -188,6 +188,10 @@ h2 {
   padding: 0.7rem 0.8rem;
 }
 
+.contact-form small {
+  color: var(--text-soft);
+}
+
 .site-footer {
   border-top: 1px solid var(--border);
   padding: 1rem 0;

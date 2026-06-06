@@ -30,3 +30,11 @@ const observer = new IntersectionObserver(
 );
 
 document.querySelectorAll(".reveal").forEach((section) => observer.observe(section));
+
+const contactForm = document.getElementById("contact-form");
+
+if (contactForm) {
+  contactForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+  });
+}

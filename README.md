@@ -4,16 +4,16 @@ Modern, responsive, business-focused personal portfolio built with HTML, CSS, an
 
 ## File Structure
 
-- `/tmp/workspace/Lavena0314/MyPortfolio/index.html` – Main single-page portfolio markup
-- `/tmp/workspace/Lavena0314/MyPortfolio/styles.css` – Styling, layout, responsive rules, and animations
-- `/tmp/workspace/Lavena0314/MyPortfolio/script.js` – Mobile navigation behavior and reveal animations
-- `/tmp/workspace/Lavena0314/MyPortfolio/README.md` – Project overview and setup notes
+- `index.html` – Main single-page portfolio markup
+- `styles.css` – Styling, layout, responsive rules, and animations
+- `script.js` – Mobile navigation behavior and reveal animations
+- `README.md` – Project overview and setup notes
 
 ## Setup / Run
 
-1. Open `/tmp/workspace/Lavena0314/MyPortfolio/index.html` directly in a browser.
+1. Open `index.html` directly in a browser.
 2. Optional local server (recommended):
-   - `cd /tmp/workspace/Lavena0314/MyPortfolio`
+   - `cd MyPortfolio`
    - `python -m http.server 8000`
    - Open `http://localhost:8000`
 
