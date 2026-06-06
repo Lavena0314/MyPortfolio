@@ -4,7 +4,7 @@ Business-focused personal portfolio website for GitHub Pages.
 
 ## Run locally
 
-Open `/tmp/workspace/Lavena0314/MyPortfolio/index.html` in a browser.
+Open `index.html` in a browser.
 
 ## Publish with GitHub Pages
 
