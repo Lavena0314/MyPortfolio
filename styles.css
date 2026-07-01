@@ -204,6 +204,15 @@ body {
   padding: 1.6rem 1.6rem 0 1.6rem;
 }
 
+#projects .section {
+  padding: 1.6rem;
+}
+
+#projects h2 {
+  margin: 0 0 1.2rem 0;
+  padding: 0;
+}
+
 /* Education Cards */
 .education-card {
   background: var(--surface);
@@ -357,15 +366,77 @@ body {
   line-height: 1.4;
 }
 
+/* Project Grid & Cards */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
 }
 
 .project-card {
-  padding: 1.15rem;
+  padding: 0;
+  padding-bottom: 1.15rem;
   transition: transform 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.project-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-image {
+  width: 100%;
+  height: 180px;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-strong) 100%);
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 1rem;
+  border-radius: 18px 18px 0 0;
+  margin-bottom: 0.8rem;
+}
+
+.blog-image {
+  background: linear-gradient(135deg, #8B4513 0%, #D2691E 100%);
+}
+
+.portfolio-image {
+  background: linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%);
+}
+
+.profile-image {
+  background: linear-gradient(135deg, #ec4899 0%, #f472b6 100%);
+}
+
+.service-image {
+  background: linear-gradient(135deg, #06b6d4 0%, #22d3ee 100%);
+}
+
+.project-badge {
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--primary-strong);
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.project-card h3 {
+  margin: 0 1.15rem 0.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.project-card p {
+  margin: 0 1.15rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.4;
 }
 
 .contact-grid {
@@ -385,8 +456,10 @@ body {
     padding-top: 3.4rem;
   }
 
-  .highlights,
-  .project-grid,
+  .project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .contact-grid {
     grid-template-columns: 1fr;
   }
@@ -431,5 +504,9 @@ body {
   .experience-meta {
     flex-direction: column;
     gap: 0.3rem;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
   }
 }
