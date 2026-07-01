@@ -162,7 +162,6 @@ body {
 }
 
 .card,
-.project-card,
 #about,
 #projects,
 #contact {
@@ -177,8 +176,7 @@ body {
   transition: transform 0.25s ease;
 }
 
-.card:hover,
-.project-card:hover {
+.card:hover {
   transform: translateY(-4px);
 }
 
@@ -374,12 +372,19 @@ body {
 }
 
 .project-card {
-  padding: 0;
-  padding-bottom: 1.15rem;
-  transition: transform 0.25s ease;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 40px rgba(122, 92, 194, 0.15);
 }
 
 .project-link {
@@ -390,50 +395,27 @@ body {
 .project-image {
   width: 100%;
   height: 180px;
-  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-strong) 100%);
-  position: relative;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.project-content {
+  padding: 1.15rem;
+  flex-grow: 1;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
-  padding: 1rem;
-  border-radius: 18px 18px 0 0;
-  margin-bottom: 0.8rem;
-}
-
-.blog-image {
-  background: linear-gradient(135deg, #8B4513 0%, #D2691E 100%);
-}
-
-.portfolio-image {
-  background: linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%);
-}
-
-.profile-image {
-  background: linear-gradient(135deg, #ec4899 0%, #f472b6 100%);
-}
-
-.service-image {
-  background: linear-gradient(135deg, #06b6d4 0%, #22d3ee 100%);
-}
-
-.project-badge {
-  background: rgba(255, 255, 255, 0.9);
-  color: var(--primary-strong);
-  padding: 0.4rem 0.8rem;
-  border-radius: 999px;
-  font-weight: 600;
-  font-size: 0.8rem;
+  flex-direction: column;
 }
 
 .project-card h3 {
-  margin: 0 1.15rem 0.3rem;
+  margin: 0 0 0.3rem 0;
   font-size: 1rem;
   font-weight: 600;
   color: var(--text);
 }
 
 .project-card p {
-  margin: 0 1.15rem;
+  margin: 0;
   font-size: 0.9rem;
   color: var(--muted);
   line-height: 1.4;
